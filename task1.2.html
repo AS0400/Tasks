@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // throught bitwise
+                //the same thing math.abs function will take the value if the value is negative 
+                // than it will convert it into the positive number 
+                let number3 = Math.abs(Number(prompt("enter number")));
+                // here it will check the condition in javascript if we will use the & oprater
+                // it will convert the number into binary and then check the condition 
+                //if it will the if it equal to zero then it will be the even number
+                if((number3 & 1)==0){
+                    console.log("even");
+                }
+                //if the condition will not run then else values print if the number is the 1 then it will
+                // be the odd number
+                else{
+                    console.log("odd");
+                }
+    </script>
+</body>
+</html>

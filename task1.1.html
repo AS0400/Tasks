@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//second method
+                //first we do same as create a prompt function to take the input from the user
+                let number2 = Math.abs(Number(prompt("enter number")));
+                //in this we will check the condition through the loop while loop
+                while(number2 >= 2){
+                    //every times it will run it will substract the value 2 from actual value and 
+                    //stops the code while the value is zero or 1 
+                    number2 -=2;
+                }
+                // in this condition if the number from above condition will be zero it will be even 
+                if(number2 == 0){
+                    console.log(" though loop " + " even ");
+                }
+                //in this condition if the number from the above condition will bw the 1 it will be the odd
+                    else{
+                        console.log(" though loop "+" odd ");
+
+                    }
+    </script>
+    </body>
+</html>
